@@ -1,0 +1,281 @@
+body{
+	background-color: black;
+}
+#about{
+	background-color: #333;
+	color:white;
+	box-shadow: greenyellow;
+}
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 10px 0;
+	z-index: 1000;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul a {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 20px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+nav ul a:hover {
+	background: #3c91e6;
+	color: #000;
+	transform: scale(1.1);
+}
+
+#home{
+	border: 50%;
+	background:linear-gradient(135deg,#1b2735,#090a0f);
+	color: #fff;
+	text-align: center;
+	display: block;
+	box-shadow:0 0 100px white;
+}
+#t{
+	height: 50vmin;
+	width:100%;
+	border-radius: 2%;
+	border-color: greenyellow;
+	box-shadow:0 0 100px greenyellow;
+	object-fit: contain;
+	background-color: darkcyan;
+}
+#i{
+	height: 36vmin;
+	width:36vmin;
+	border-radius: 50%;
+	box-shadow: 0;
+	box-shadow: 0px 0px 100px #3c91e6;
+}  
+#rh{
+	color:darkolivegreen;
+}
+#in{
+	height:680vmin;
+	width:180vmin;
+	background-color: black;
+	box-shadow: 0px 0px 100 orangered;
+}
+#res{
+	justify-content: center;
+	display: block;
+	background-color:slategray;
+	border-radius: 1rem;;
+	
+}  
+#k{
+	align-self: center;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+pre{
+	color: white;
+}
+
+#d{
+	width:55%;
+	height:30%;
+	border-radius: 1rem;
+}
+
+.download-btn{
+	height: 8vmin;
+	width:25vmin;
+}
+
+
+button{
+	height: 18vmin;
+	width:18vmin;
+	border-radius: 50%;
+	background-color:#3c91e6;
+	box-shadow:0 0 100px navy;
+}
+#about{
+	justify-content: center;
+	display: block;
+	align-items: center;
+}
+#s{
+	width:100%;
+	border-radius: 1%;
+	box-shadow: 0px 0px 100px darkcyan;
+}
+#a{
+	color: white;
+}
+p{
+	color:white;
+}
+#b{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18vmin;
+}
+h2{
+	color: whitesmoke;
+}
+h3{
+	color: whitesmoke;
+}
+button:hover{
+	box-shadow:0 0 100px black;
+}
+
+    
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            color: #3c91e6;
+			
+
+        }
+
+        h3 {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #3c91e6;
+            border-bottom: 2px solid #3c91e6;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #3c91e6;
+        }
+
+        .skills, .education, .projects, .certificates, .contact {
+            margin-bottom: 20px;
+        }
+
+
+/* Timeline Section */
+#education-timeline {
+	padding: 4em 2em;
+	background-color: #f9f9f9;
+  }
+  
+  .timeline {
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+	padding-left: 40px; /* Space for timeline line */
+  }
+  
+  .timeline::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 20px;
+	width: 4px;
+	height: 100%;
+	background: #3c91e6;
+  }
+  
+  .timeline-item {
+	position: relative;
+	margin-bottom: 30px;
+	padding-left: 30px;
+  }
+  
+  .timeline-dot {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+	background: #3c91e6;
+	border-radius: 50%;
+	border: 4px solid #fff;
+  }
+  
+  .timeline-content {
+	background: #fff;
+	border-radius: 5px;
+	padding: 15px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-content h3 {
+	margin: 0;
+	font-size: 1.2em;
+	color: #333;
+  }
+  
+  .timeline-content p {
+	margin: 5px 0 0;
+	font-size: 0.9em;
+	color: #666;
+  }
+  
+  @media (max-width: 768px) {
+	.timeline {
+		padding-left: 20px;
+	}
+	.timeline::before {
+		left: 10px;
+	}
+	.timeline-dot {
+		left: 0;
+	}
+  }
+        .contact span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .download-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #3c91e6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .download-btn:hover {
+            background-color: #2b6cb0;
+        }
