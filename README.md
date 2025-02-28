@@ -38,9 +38,6 @@ Explore the different sections of the portfolio to learn more about my projects 
 - CSS
 - JavaScript
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
 You can reach me at [vaishnavishm082@gmail.com](mailto:your-email@example.com).
 
