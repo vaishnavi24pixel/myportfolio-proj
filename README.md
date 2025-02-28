@@ -1,1 +1,1 @@
-my portfolio website using hyml css and javascript
+my portfolio website using html css and javascript
