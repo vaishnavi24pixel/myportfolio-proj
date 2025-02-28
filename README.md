@@ -22,3 +22,7 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It 
 1. Clone the repository:
    ```bash
    git clone https://github.com/vaishnavi24pixel/myportfolio-proj.git
+2.Navigate to the project directory:
+   ```bash
+    cd myportfolio-proj
+
