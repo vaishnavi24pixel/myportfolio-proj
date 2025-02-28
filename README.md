@@ -1,3 +1,4 @@
+
 # My Portfolio
 
 ## Description
@@ -22,7 +23,29 @@ This is my personal portfolio website built using HTML, CSS, and JavaScript. It 
 1. Clone the repository:
    ```bash
    git clone https://github.com/vaishnavi24pixel/myportfolio-proj.git
-2.Navigate to the project directory:
+   ```
+2. Navigate to the project directory:
    ```bash
-    cd myportfolio-proj
+   cd myportfolio-proj
+   ```
+3. Open `index.html` in your browser to view the portfolio.
+
+## Usage
+Explore the different sections of the portfolio to learn more about my projects and skills. Feel free to contact me using the contact form.
+
+## Screenshots
+![Homepage](path/to/screenshot1.png)
+![Projects](path/to/screenshot2.png)
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+You can reach me at [vaishnavishm082@gmail.com](mailto:your-email@example.com).
+```
 
